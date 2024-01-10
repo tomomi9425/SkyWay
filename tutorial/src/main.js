@@ -1,4 +1,9 @@
-　import { nowInSec, SkyWayAuthToken, SkyWayContext, SkyWayRoom, SkyWayStreamFactory, uuidV4 } from '@skyway-sdk/room';
+npm install @skyway-sdk/room
+npm install @skyway-sdk/core
+npm install @skyway-sdk/sfu-bot
+npm install @skyway-sdk/token
+
+import { nowInSec, SkyWayAuthToken, SkyWayContext, SkyWayRoom, SkyWayStreamFactory, uuidV4 } from '@skyway-sdk/room';
 // ↑ライブラリの取得。これを取るとカメラが映らない
 
 const token = new SkyWayAuthToken({
